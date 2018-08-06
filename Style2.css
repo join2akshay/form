@@ -1,1 +1,69 @@
 
+
+.img
+{
+    float: left;
+ opacity: 1;
+ width: 600px;
+    height: 660px;
+    margin-left: -20px;
+    position: relative;
+}
+
+.form
+{
+   top: 200px;
+ 
+    /*border: 1px solid;*/
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.log
+{
+    margin-top: 250px;
+   /* border: 2px solid;*/
+    
+    
+}
+#buttn
+{
+    background-color: yellow;
+}
+
+
+@media screen and (max-width: 800px)
+        {
+            body
+            {
+                background-image: url(../src/ZN5FIof.jpg);
+                
+            }
+            .img
+            {
+                display: none;
+            }
+          
+        }
+@media screen and (min-width:800 and max-width:766px)
+{
+    
+}
+
+@media screen and (max-width: 675px)
+        {
+            .form
+            {
+                top: 0px;
+            }
+            .log
+            {
+                
+              margin-top: 30px;
+            }
+        }
+
+
+
+
