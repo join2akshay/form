@@ -27,27 +27,27 @@
         </div>
         <div class="row-tab">
             <div class="labels">
-             <div id="name-label" for="name">
+             <div id="email-label" for="email">
                *Email:
              </div>
             </div>
           <div class="tab-right">
-            <input type="text" placeholder="Enter your Name" name="name" class="input-felids">
+            <input type="text" placeholder="Enter your Email" name="Email" class="input-felids">
           </div>
           </div>
           <div class="row-tab">
               <div class="labels">
-               <div id="name-label" for="name">
+               <div id="age-label" for="age">
                  *Age:
                </div>
               </div>
             <div class="tab-right">
-              <input type="text" placeholder="Enter your Name" name="name" class="input-felids">
+              <input type="text" placeholder="Enter your Age" name="Age" class="input-felids">
             </div>
             </div>
             <div class="row-tab">
                 <div class="labels">
-                 <div id="name-label" for="name">
+                 <div id="role-label" for="role">
                     Which option best describes your current role?:
                  </div>
                 </div>
@@ -63,7 +63,7 @@
               </div>
               <div class="row-tab">
                   <div class="labels">
-                   <div id="name-label" for="name">
+                   <div id="recommend-label" for="recommend">
                       * How likely is that you would recommend freeCodeCamp to a friend?
                    </div>
                   </div>
@@ -75,6 +75,59 @@
                       </ul>
                 </div>
                 </div>
+                <div class="row-tab">
+                  <div class="labels">
+                   <div id="like-label" for="like">
+                    What do you like most in FCC:
+                   </div>
+                  </div>
+                <div class="tab-right">
+                  <select id="most-like" name="mostLike" class="dropdown">
+                    <option disabled selected value>Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">Open Source</option>
+                  </select>
+                </div>
+                </div>
+                <div class="row-tab">
+                  <div class="labels">
+                   <div id="like-label" for="like">
+                    Things that should be improved in the future
+                    (Check all that apply):
+                   </div>
+                  </div>
+                <div class="tab-right">
+                  <ul id="preferences" style="list-style: none;">
+                    <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end Projects</label></li>
+                    <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end Projects</li>
+                    <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Data Visualization</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Challenges</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Open Source Community</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Gitter help rooms</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Videos</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">City Meetups</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Wiki</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">Forum</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">Additional Courses</label></li>
+                  </ul>
+                </div>
+                </div>
+                <div class="row-tab">
+                  <div class="labels">
+                   <div id="age-label" for="age">
+                    Any Comments or Suggestions?
+                   </div>
+                  </div>
+                <div class="tab-right">
+                  <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+                </div>
+                <!--submit Button-->
+                <div id="submit">
+                  <button type="submit" id="button">Submit</button>
+                </div>
               </div>
 
   </div>
@@ -82,4 +135,3 @@
       
   </body>
 </html>
-
