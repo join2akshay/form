@@ -70,3 +70,17 @@ input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
+#button
+{
+ align-items: center;
+ width: 100px;
+ height: 50px;
+ border: 1px solid #59ACE0;
+ background-color: #59ACE0; 
+ border-radius: 3px;
+ color: #ffff;
+ font-size: 1em;
+ margin: 10px;
+ cursor: pointer;
+
+}
