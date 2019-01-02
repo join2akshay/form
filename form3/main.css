@@ -84,3 +84,25 @@ input[type="checkbox"] {
  cursor: pointer;
 
 }
+
+@media screen and (max-width: 520px) {
+  .inner-box
+  {
+    width: 90%;
+  }
+  .labels {
+    font-size: 22px;
+    width: 100%;
+    text-align: left;
+  }
+  .tab-right {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
